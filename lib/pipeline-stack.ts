@@ -18,7 +18,7 @@ export class PipelineStack extends Stack {
 
     // Create the code pipeline
     const pipeline = new Pipeline(this, "Pipeline", {
-      pipelineName: "Code Pipeline Demo",
+      pipelineName: "Code_Pipeline_Demo",
       crossAccountKeys: false,
     });
 
